@@ -1,0 +1,91 @@
+* {
+    font-family: Race Sport, sans-serif;
+}
+
+body {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2, h4 {
+    color: #ffffff;
+}
+
+
+.letsOperate {
+    margin-top: 20px;
+    width: 700px;
+}
+
+.letsOperate strong {
+    color: #e70000;
+}
+
+.community-btn {
+    margin-top: 30px;
+}
+
+.community-btn .btn-danger {
+    background-color: #00d400 !important;
+    border: 1px solid #00d400 !important;
+    box-shadow: 1px 1px 20px #00d400af;
+    padding: 15px;
+    transition: .4s;
+}
+
+.community-btn .btn-danger:hover {
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+.bx {
+    font-size: 15px;
+}
+
+.freeSec h1 {
+    color: #00d400;
+    text-shadow: 1px 1px 20px #00d400af;
+}
+
+.freeSec p {
+    color: #ffffff;
+    text-align: justify;
+    width: 1000px;
+    font-size: 22px;
+}
+
+.card-prog {
+    padding: 30px;
+    border: 2px dashed #00d400;
+    border-radius: 8px;
+}
+
+.card-header .bx {
+    color: #e70000;
+    font-size: 42px;
+}
+
+.card-footer p {
+    color: #ffffff;
+}
+
+.depositions {
+    margin-top: 100px;
+}
+
+.item {
+    border: 2px solid #e70000;
+    border-radius: 12px;
+}
+
+.item img{
+    border-radius: 12px;
+}
+
+.col-presentation p {
+    color: #ffffffc0;
+    text-align: justify;
+    line-height: 26px;
+}
