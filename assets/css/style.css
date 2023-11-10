@@ -13,6 +13,13 @@ h2, h4 {
     color: #ffffff;
 }
 
+.davi-principal-done {
+    height: 880px
+}
+
+.logo {
+    margin-top: 130px;
+}
 
 .letsOperate {
     margin-top: 20px;
@@ -88,4 +95,70 @@ h2, h4 {
     color: #ffffffc0;
     text-align: justify;
     line-height: 26px;
+}
+
+.redes-sociais {
+    position: fixed;
+    z-index: 100000000;
+    top: 420px;
+    left: 10px;
+    padding: 5px;
+    background-color: #e70000;
+    border-radius: 12px;
+}
+
+.instagram {
+    position: absolute;
+    z-index: 100000000;
+    top: 780px;
+    left: 400px;
+    padding: 0px;
+    background-color: #e7000000;
+    border-radius: 12px;
+}
+
+.instagram a {
+    color: #ffffff00;
+}
+
+.redes-sociais ul {
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.redes-sociais ul li {
+    list-style: none;
+}
+
+.redes-sociais ul li a .bx {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+    .letsOperate {
+        width: 100%;
+    }
+
+    .logo {
+        margin-top: 20px;
+        height: 45px;
+    
+    }
+
+    .davi-principal-done {
+        height: 500px
+    }
+
+    .redes-sociais {
+        top: 301px;
+        left: 10px;
+        padding: 2px;
+        border-radius: 8px;
+    }
+
+    .instagram {
+        top: 440px;
+        left: 80px;
+    }
 }
