@@ -56,6 +56,11 @@ h2, h4 {
     text-shadow: 1px 1px 20px #00d400af;
 }
 
+.freeSec2 h1 {
+    color: #00d400;
+    margin-bottom: 20px;
+}
+
 .freeSec p {
     color: #ffffff;
     text-align: justify;
